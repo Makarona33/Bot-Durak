@@ -188,5 +188,6 @@ async def give_up_confirmation(message: Message):
     state = await state_dispenser.get(message.from_id)
 
     if state and "Playing" in state.state:
+        storage[message.from_id].bot_cards.clear()
         await end_game(message.from_id)
 

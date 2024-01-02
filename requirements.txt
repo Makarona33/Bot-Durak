@@ -1,0 +1,8 @@
+peewee==3.17.0
+aiohttp==3.9.1
+aiofiles==22.1.0
+vkbottle==4.3.12
+Pillow==10.1.0
+aiomysql==0.2.0
+peewee-async==0.9.1
+loguru==0.7.2
